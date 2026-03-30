@@ -48,6 +48,7 @@ html {
   margin-bottom: 5px;
   font-size: 30px;
   margin-left: -10px;
+  margin-bottom: 20px;
 }
 
 .sidebar a{
@@ -128,9 +129,7 @@ html {
 .desc{
     display: flex;
     flex-wrap: wrap;
-    padding: 40px;
-    flex-wrap: wrap;
-    justify-content: center;
+    padding: 20px;
 
     border-radius: 10px;
     background-color: #C78560;
@@ -152,4 +151,19 @@ html {
 /* SPACE */
 .space {
     height: 2vh;
+}
+
+/* PROGRESS BAR */
+.bar{
+    width: 100%;
+    height: 10px;
+    background-color: #EFAA64;
+    border-radius: 10px;
+}
+
+.bar div{
+    height: 100%;
+    background: green;
+    width: 0%;
+    border-radius: 10px;
 }

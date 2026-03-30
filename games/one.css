@@ -1,0 +1,42 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background: url("img-game/bg-one.svg");
+    background-size: cover;
+}
+
+#board {
+    width: 540px ;
+    height: 540px;
+    background-color: aqua;
+
+    margin:0 auto ;
+    display: flex;
+    flex-wrap: wrap;
+
+    background: url("img-game/square.svg");
+    background-size: cover;
+    border: 3px solid white;
+    border-radius: 25px;
+
+}
+
+#board div{
+    /* board = 540x540, divide into 3x3 tiles --- 180x180 */
+    width: 180px;
+    height: 180px;
+    background: url("img-game/group-pipe.svg");
+    background-size: cover;
+}
+
+#board div img{
+    /* all img tags inside the tile div tag */
+    width: 100px;
+    height: 100px;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
